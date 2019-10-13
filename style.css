@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+}
+.dialogBlock {
+	height: 830px;
+	background: #373e4f;
+	margin-top: 53px;
+}
+.infoBlock
+{
+	background: #ffffff;
+	height: 100px;
+	margin-top: 53px;
+}
+.chatBlock {
+	margin-top: -740px;
+	height: 660px;
+	background: #ffffff;
+	border-bottom: solid 1px #eff1f4;
+	overflow-y: scroll;
+}
+.sendBlock {
+	margin-top: -80px;
+	height: 80px;
+	background: #ffffff;
+	border-top: solid 1px #eff1f4;	
+}
+.userOne, .user {
+
+	padding: 20px;
+	height: 90px;
+	border-bottom: solid 1px #454e63;
+}
+.userTwo {
+	
+	padding: 20px;
+	height: 90px;
+	border-bottom: solid 1px #454e63;
+
+}
+.MessageRight p
+{
+    display: inline-flex;
+    margin-left: 15px;
+    background-color: #f4f5f7;
+}
+.MessageRight {
+    padding: 10px;
+}
+.MessageLeft {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.MessageLeft p {
+    display: inline-flex;
+    margin-left: 15px;
+    background-color: #f4f5f7;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.MessageLeft span {
+    background-color: white;
+    padding-right: 10px;
+}
+.MessageRight span {
+    background-color: white;
+    padding-left: 10px;
+}
+.userThree {
+	padding: 20px;
+	height: 90px;
+	border-bottom: solid 1px #454e63;
+}
+.timeDialogMessage{
+    margin-top: -74px;
+    float: right;
+    color: white;
+}
+.LastMessageDialog{
+    margin-top: -14px;
+    margin-left: 67px;
+    color: white;
+}
+.userFour {
+	padding: 20px;
+	height: 90px;
+	border-bottom: solid 1px #454e63;
+}
+.submitButton {
+	padding-right: 20px;
+    padding-top: 15px;
+	float: right;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.userInfo {
+	padding: 20px;
+	height: 90px;
+	border-bottom: solid 1px #eff1f4;
+}
+.col
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.messageInput {
+  margin: 25px;
+  border: none;
+	width: 192px;
+}
+.imageMessage
+{
+    float:left;
+}
+button, input {
+	overflow: hidden; 
+}
+html body {
+    background-color: #f74056;
+}
+.dialogBlock .user:hover {
+	background-color: #232735;
+}
+@media only screen and (min-width : 0px) and (max-width : 990px) {
+	#collectMessages {
+		width: 725px;
+		height: 789px;
+		margin-top: -830px;
+	}
+	.infoBlock {
+		display: none;
+	}
+	.sendBlock {
+		display: none;
+		margin-top: -117px;
+		height: 75px;
+		width: 725px;
+	}
+	.dialogBlock {
+
+		width: 725px;
+	}
+}
